@@ -3,6 +3,7 @@ body{
     background-color: AAAAAA;
     color: #3A3A3A;
 }
+/* Header  */
  header{
      padding-top: 120px;
     padding-bottom: 170px;
@@ -23,6 +24,7 @@ nav a{
 .first-line{
     display: inline;
 }
+/* main  */
 .container{
     display: flex;
     padding-top: 120px;
@@ -59,6 +61,7 @@ nav a{
 .section-title{
     text-align: center;
 }
+/* one part of header  */
 h1{
     font-size: 32px;
 }
@@ -78,6 +81,8 @@ h1{
     border-radius: 50px;
     font-weight: 700;
 }
+/* header end  */
+/* rating style  */
 .fa-star{
     font-size: 12px;
 }
@@ -87,9 +92,11 @@ h1{
 .fa-star.empty{
     color: grey;
 }
+/* rating close  */
 .another-page{
     text-decoration: none;
     color:  rgb(199, 21, 119);
+    text-align: right;
 }
 footer{
     text-align: center;
