@@ -1,8 +1,11 @@
-
-/* header{
-    disply: inline;
-} */
-
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 120px;
+}
+ header{
+    disply: flex;
+    padding-bottom: 170px;
+}
 h2{
     font-size: 24px;
 }
@@ -10,9 +13,24 @@ h2{
 
 nav a{
     text-decoration: none;
-    width: 465px;
-    height: 36px;
+    /* width: 465px;
+    height: 36px; */
     color:black;
     margin-right: 15px;
-
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    background-image: url(images/shape-4.png);
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(199, 21, 119);
+    padding: 10px 50px;
+    border-radius: 50px;
+    font-weight: 700;
 }
