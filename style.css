@@ -1,0 +1,18 @@
+
+/* header{
+    disply: inline;
+} */
+
+h2{
+    font-size: 24px;
+}
+
+
+nav a{
+    text-decoration: none;
+    width: 465px;
+    height: 36px;
+    color:black;
+    margin-right: 15px;
+
+}
